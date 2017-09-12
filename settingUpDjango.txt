@@ -1,0 +1,44 @@
+#################################  FOR WINDOWS ##############################################
+******Install anaconda first
+
+1. create virtual environment for django  by using these commands:
+-> conda create --name NameOfVirtualEnvironment django  
+****I use myDjangoEnv as NameOfVirtualEnvironment
+*** to check if the virtual environment is created :
+-> conda info --envs
+this will show the names of environment including the default one named "root"
+
+
+2.if django is not installed , goto virtual env by :
+-> activate myDjangoEnv 
+** Now istall django in this environment
+-> pip install django    
+	or
+-> conda install django 
+
+
+3. to deactivate:
+->deactivate
+
+###############################
+Create a new project:
+goto desired folder, open cmd then type:
+-> activate myDjangoEnv 
+-> django-admin startproject NameOfProject
+*** I use FirstDjangoProject
+-> cd FirstDjangoProject
+-> python manage.py runserver
+
+** this will show something like this:  http://127.0.0.1:8000/
+** goto browser and hit this above url.....done......  
+
+** to quit press crtl+break from keyboard
+
+#########################################
+creating first application:
+
+run at CMD:
+
+-> python manage.py startapp Name_of_the_app
+
+this will create a new folder with the given name
