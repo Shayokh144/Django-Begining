@@ -20,7 +20,7 @@ this will show the names of environment including the default one named "root"
 3. to deactivate:
 ->deactivate
 
-###############################
+####################################################################
 Create a new project:
 goto desired folder, open cmd then type:
 -> activate myDjangoEnv 
@@ -34,7 +34,7 @@ goto desired folder, open cmd then type:
 
 ** to quit press crtl+break from keyboard
 
-#########################################
+#############################################################################
 creating first application:
 
 run at CMD:
