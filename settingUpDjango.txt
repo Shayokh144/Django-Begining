@@ -42,3 +42,10 @@ run at CMD:
 -> python manage.py startapp Name_of_the_app
 
 this will create a new folder with the given name
+
+##################################################################
+
+For migration run at your virtual environment:
+-> python manage.py migrate
+-> python manage.py makemigrations first_app
+-> python manage.py migrate
