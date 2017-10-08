@@ -49,3 +49,8 @@ For migration run at your virtual environment:
 -> python manage.py migrate
 -> python manage.py makemigrations first_app
 -> python manage.py migrate
+
+
+#########################           Some Extra Package    ####################################################
+-> pip install django-celery
+-> pip install django-bootstrap3
